@@ -2,10 +2,10 @@
 {
     'name': "miprimermodulo",
 
-    'summary': "Short (1 phrase/line) summary of the module's purpose",
+    'summary': "Modulo de gestion de ventas",
 
     'description': """
-Long description of module's purpose
+        Modulo de gestion avanzada de ventas
     """,
 
     'author': "My Company",
@@ -25,10 +25,14 @@ Long description of module's purpose
         # 'security/ir.model.access.csv',
         'views/views.xml',
         'views/templates.xml',
+        'views/gestion_ventas.xml',
     ],
     # only loaded in demonstration mode
     'demo': [
         'demo/demo.xml',
     ],
+
+    'installable': True,
+    'application': True,
 }
 
